@@ -45,3 +45,6 @@ df |>
   geom_point() +
   theme_minimal()
 
+df$pred_use <- predict(glm_model,newdata = df, type = "response")
+# column:1の予想がどう動いているか?
+1 / (1 + exp( - (coef_model[1] + coef_model[2]*1 + coef_model[3] * df$age[1] + coef_model[6]*1) ))

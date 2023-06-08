@@ -8,3 +8,5 @@
 
 [階層モデル（単回帰）
 ](https://stats.biopapyrus.jp/bayesian-statistics/estimation/hierarchical-model.html)
+
+https://github.com/paul-buerkner/brms
